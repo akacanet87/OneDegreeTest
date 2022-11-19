@@ -7,13 +7,13 @@ module.exports = withImages({
   i18n,
   inlineImageLimit: false,
   images: {
-    domains: ['github.com', 'picsum.photos'],
+    domains: ['github.com', 'picsum.photos', 'akacanet87.github.io'],
     imageSizes: [16, 32, 64, 128],
     deviceSizes: [480, 768, 1080, 1440]
   },
   env: {
-    BASE_URL: process.env.NODE_ENV !== 'production' ? 'http://localhost:9000' : 'https://picometer.me',
-    API_PATH: process.env.NODE_ENV !== 'production' ? 'http://localhost:9000' : 'https://picometer.me',
+    BASE_URL: process.env.NODE_ENV !== 'production' ? 'http://localhost:9000' : 'https://akacanet87.github.io/OneDegreeTest/',
+    API_PATH: process.env.NODE_ENV !== 'production' ? 'http://localhost:9000' : 'https://akacanet87.github.io/OneDegreeTest/',
     NEXTAUTH_URL: 'http://localhost:9000',
     FIREBASE_API_KEY: 'AIzaSyAL0bhz8FHbos4HFMbGrkmKOH3rkL0vsas',
     FIREBASE_AUTH_DOMAIN: 'vitameet-d889c.firebaseapp.com',
